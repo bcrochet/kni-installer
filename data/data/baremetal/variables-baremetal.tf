@@ -18,9 +18,9 @@ variable "baremetal_bridge" {
   description = "The name of the baremetal bridge"
 }
 
-variable "overcloud_bridge" {
+variable "provisioning_bridge" {
   type = "string"
-  description = "The name of the overcloud bridge"
+  description = "The name of the provisioning bridge"
 }
 
 variable "master_configuration" {

@@ -35,6 +35,6 @@ resource "libvirt_domain" "bootstrap" {
   }
 
   network_interface {
-    bridge = "${var.overcloud_bridge}"
+    bridge = "${var.provisioning_bridge}"
   }
 }
